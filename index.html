@@ -7,15 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Gavin Ward</title>
 </head>
 <body>
     <div id="navbar">
         <div><a href="#navbar-home">Title page</a></div>
         <div><a href="#navbar-resume">Resume/Info</a></div>
-        <div><a href="#navbar-home">About Me</a></div>
-        <div><a href="#navbar-home">My Work</a></div>
-        <div><a href="#navbar-home">Contact Info</a></div>
+        <div><a href="#navbar-about">About Me</a></div>
+        <div><a href="#navbar-work">My Work</a></div>
+        <div><a href="#navbar-contact">Contact Info</a></div>
     </div>
     <section class="section section-1" id="navbar-home">
         <div class="container-1">
@@ -91,7 +91,7 @@
 
     <section class="section section-3" id="navbar-about">
         <div class="container-3">
-                <h2 id="section-title-3" >Who is Gavin Ward?</h2>
+                <h2 class="section-title-3" >Who is Gavin Ward?</h2>
             <div class="text-layout">
                 <h3>About Me</h3>
                 <p>As stated before I am currently a college student at the University of Alabama.
@@ -100,15 +100,78 @@
                     I'm always with my friends whether we're studying at a cafe or doing some activity.
                     As of last summer, as a result of my friends' influence I have become a volleyball fanatic playing any chance I can get. 
                     Unfortunately I can only play alot during the summer but because of that I play nearly every day.
-                    I can't tell yuo everything about me but if you would like to hear more please contact me through the <span class="emphasis">Contact Info</span> page
+                    I can't tell yuo everything about me but if you would like to hear more please contact me through the <span class="emphasis">Contact Info</span> page.
                 </p>
             </div>
-            <img src="./assets/images/pookie_and_me.jpg" alt="">
+            <img src="./assets/images/pookie_and_me.jpg" alt="me and my girlfriend">
         </div>
     </section>
 
-    <section class="section section-4" id="navbar-work">
-        
+    <section class="section-4" id="navbar-work">
+        <div class="container-4">
+            <div id="row-1">
+                <h2>My Past Projects</h2>
+            </div>
+                
+            <div class="image" id="order-1">
+                <img src="./assets/images/person-pong.png" alt="pong classic image">
+            </div>   
+
+            <div class="flex-container" id="order-2">
+                <h3>Pong Classic</h3>
+                <p>I remade a classic version of pong using a combination of C++ and the SFML 
+                    library. It allows games to 11 between two players on the same computer and once 11 points is 
+                    reached a win screen pops up with which player won. It was my first attempt at a personal project
+                    done entirely by myself and turned out well allowing for fully playable pong games. From working on it 
+                    I gained some understanding of the SFML Library and game design processes while simultaneously developing my C++ skills and
+                    fundamentals. Github:<a href="https://github.com/hiiien/Pong-Project">Pong Project</a>
+                </p>
+            </div>
+
+            <div class="flex-container right-border" id="order-4">
+                <h3>Resume Project</h3>
+                <h4>A blast from the past</h4>
+                <p>While not impressive by any means its important to me as it was 
+                    my first foray into any type of website development. Projects like this remind 
+                me of how far I have come and give me the confidence that I can keep getting better
+                despite any challenges I might face.</p>
+            </div>
+
+            <div class="image" id="order-3">
+                <img src="./assets/images/resume.png" alt="Resume">
+            </div>
+
+            <div class="image" id="order-5">
+                <img src="./assets/images/tindog.png" alt="Tindog">
+            </div>
+
+            <div class="flex-container" id="order-6">
+                <h3>Tin Dog Bootstrap</h3>
+                <p>This was a Web Design made with the CSS Bootstrap Framework. I gained valueable understanding 
+                 in bootstrap which is crucial for a quick release of a website. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-5" id="navbar-contact">
+        <div class="container-5">
+            <div>
+                <h2 id="section-title-4">How To Contact Me</h2>
+            </div>
+            
+            <div>
+                <p><span class="emphasis">Email: </span> gavin.gbw@gmail.com</p>
+            </div>
+
+            <div>
+                <p><span class="emphasis">Phone:</span> 470-330-0803</p>
+            </div>
+
+            <div>
+                <p><span class="emphasis">Instagram:</span> <a href="https://www.instagram.com/gavinxward/">gavinxward</a></p>
+            </div>
+        </div>
     </section>
 </body>
 </html>

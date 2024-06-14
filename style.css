@@ -324,7 +324,7 @@ p{
         
     }
     .section-3 p{
-        font-size: 1.7vw;
+        font-size: 1.8vw;
         max-width: 300px;
     }
 }
@@ -445,15 +445,6 @@ p{
     }
 }
 
-@media (max-width: 927px){
-    .section-4{
-        height: 310vw;
-    }
-    #order-6{
-        
-        background-color: #F1b3ac;
-    }
-}
 .section-5{
     background-color: #89CFF0;
     position: relative;
